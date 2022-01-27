@@ -12,3 +12,7 @@ def lotto_make():
 
     lotto_list.sort() # 로또번호 오름차순 정렬
     print('로또번호:',lotto_list)
+
+game = int(input('게임수 입력:'))
+for i in range(game):
+    lotto_make()
